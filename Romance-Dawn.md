@@ -8,3 +8,4 @@ $ pngcheck 7uffy.png
 ERROR: 7uffy.png
 ```
 
+![PNG chunks as described here](CTF/png-chunks.png)
