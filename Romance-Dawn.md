@@ -10,4 +10,4 @@ ERROR: 7uffy.png
 
 if you are unaware of png files data structure, a rapide look at [this source](http://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html) tells you that there are three essential chunks in a png file (see below image).
 
-<img src="https://github.com/GA86/CTF/blob/master/png-chunks.png" width="48">
+<img src="https://github.com/GA86/CTF/blob/master/png-chunks.png" width="300">
