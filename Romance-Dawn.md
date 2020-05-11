@@ -53,7 +53,7 @@ EASY is found four times on bytes:
 ## Making the changes.
 
 We will thus make four calls to `dd` inputing the result of appropriate `printf` calls. `printf` calls are all the same: hex representation of EASY which is `'\x49\x44\x41\x54'`. As for the `dd` command, we will set the block size to one 
-(`bs=1`) and, as we want the whole output of `printf`, we will also set the input character length to copy to 4 (`count=4`). As for the position argument, we will use the above byte position, making sure to retrieve one.
+(`bs=1`) and, as we want the whole output of `printf`, we will also set the input character length to copy to 4 (`count=4`). As for the position argument, we will use the above byte position, making sure to retrieve one (`seek` is the number of bytes to jump, not the initial position).
 
 We do not make the changes on the original file but on a copy, which we call `7uzzy_fixed.png`.
 
