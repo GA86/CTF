@@ -45,9 +45,9 @@ $ xxd -g 1 7uffy.png | grep EASY
 ```
 
 EASY is found four times on bytes:
-- $`9\times 16^0 + 8\times 16 = 137`$
-- $`5\times 16^0 + 9\times 16 + 0\times 16^2 + 2\times 16^3 = 8341`$
-- $`1\times 16^0 + 10\times 16 + 0\times 16^2 + 4\times 16^3 = 16544`$
-- $`13\times 16^0 + 10\times 16 + 0\times 16^2 + 6\times 16^3 = 24748`$
+- 9 x 16^0 + 8 x 16 = 137
+- 5 x 16^0 + 9 x 16 + 0 x 16^2 + 2 x 16^3 = 8341
+- 1 x 16^0 + 10 x 16 + 0 x 16^2 + 4 x 16^3 = 16544
+- 13 x 16^0 + 10 x 16 + 0 x 16^2 + 6 x 16^3 = 24748
 
 . We will thus make the four 
