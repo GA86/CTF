@@ -1,7 +1,10 @@
 # Romance Dawn
 
+This challenge is a forensics png reconstruction. The name of the file we get from the server is `7uffy.png` and what we are tasked with is to open it.
+
 ## First steps
-This challenge is a forensics png reconstruction based one. The name of the file we get from the server is `7uffy.png` and a console call of pngcheck gives the following output.
+
+First things first. A console call of pngcheck gives the following output.
 
 ```console
 $ pngcheck 7uffy.png 
