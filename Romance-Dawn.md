@@ -13,3 +13,5 @@ if you are unaware of png files data structure, a rapide look at [this source](h
 <p align="center">
 <img src="https://github.com/GA86/CTF/blob/master/png-chunks.png" width="400">
 </p>
+
+These essential chunks are: IHDR, IDAT and IEND. So let's investigate which one of these chunks are already declared in the file. There is a good chance that the file `EASY` chunks need to be corrected to one of them.
