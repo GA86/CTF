@@ -82,3 +82,19 @@ $ printf '\x49\x44\x41\x54' | dd of=7uffy_fixed.png bs=1 seek=24748 count=4 conv
 4 bytes transferred in 0.000035 secs (114131 bytes/sec)
 ```
 
+## Outcome.
+
+After all these efforts, let us have a look at the `pngcheck` output.
+
+```console
+$ pngcheck 7uffy_fixed.png
+OK: 7uffy_fixed.png (1113x885, 32-bit RGB+alpha, non-interlaced, 99.3%).
+```
+
+Great stuff... It looks like that we have corrected the file corruption. Let's open it.
+
+<p align="center">
+<img src="https://github.com/GA86/CTF/blob/master/7uffy_fixed.png" width="400">
+</p>
+
+やった！
