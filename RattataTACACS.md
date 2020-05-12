@@ -48,3 +48,8 @@ Going then into Preferences > Protocols > TACACS+, we can set the encryption key
 <img src="https://github.com/GA86/CTF/blob/master/setting-tacacs+-password.png" width="400">
 </p>
 
+And scrolling throught the TACACS+ frames, we see at the third one a flag as shown below.
+
+<p align="center">
+<img src="https://github.com/GA86/CTF/blob/master/derypted-request-TACACS+.png" width="1000">
+</p>
