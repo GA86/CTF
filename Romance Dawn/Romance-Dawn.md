@@ -97,7 +97,7 @@ OK: 7uffy_fixed.png (1113x885, 32-bit RGB+alpha, non-interlaced, 99.3%).
 Great stuff... It looks like that we have corrected the file corruption. Let's open it.
 
 <p align="center">
-<img src="https://github.com/GA86/CTF/blob/master/Romance%20Dawn/images/7uzzy_fixed.png" width="400">
+<img src="https://github.com/GA86/CTF/blob/master/Romance%20Dawn/images/7uffy_fixed.png" width="400">
 </p>
 
 やった！
